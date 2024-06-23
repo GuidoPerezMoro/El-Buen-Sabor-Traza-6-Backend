@@ -5,8 +5,6 @@ import org.hibernate.envers.RevisionListener;
 
 public class CustomRevisionListener implements RevisionListener {
     public void newRevision(Object revisionEntity){
-        final Revision revision=(Revision) revisionEntity;//transformamos el objeto en una revision
-
-
+        final Revision revision=(Revision) revisionEntity; // Parseamos el objeto en una revision
     }
 }
